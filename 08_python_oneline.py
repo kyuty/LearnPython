@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_oneline.py by xianhu
+08_python_oneline.py by xianhu
 """
 
 

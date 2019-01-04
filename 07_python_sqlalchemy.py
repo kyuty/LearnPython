@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_sqlalchemy.py by xianhu
+07_python_sqlalchemy.py by xianhu
 """
 
 import sqlalchemy

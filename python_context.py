@@ -30,7 +30,7 @@ class MyOpen(object):
         return True
 
 # 使用实例
-with MyOpen("python_base.py") as file_in:
+with MyOpen("01_python_base.py") as file_in:
     for line in file_in:
         print(line)
         raise ZeroDivisionError
@@ -52,7 +52,7 @@ def open_func(file_name):
     return
 
 # 使用实例
-with open_func("python_base.py") as file_in:
+with open_func("01_python_base.py") as file_in:
     for line in file_in:
         print(line)
         break
@@ -74,5 +74,5 @@ class MyOpen2(object):
         return
 
 # 使用实例
-with contextlib.closing(MyOpen2("python_base.py")) as file_in:
+with contextlib.closing(MyOpen2("01_python_base.py")) as file_in:
     pass
