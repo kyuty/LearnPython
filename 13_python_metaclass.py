@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_metaclass.py by xianhu
+13_python_metaclass.py by xianhu
 """
 
 
